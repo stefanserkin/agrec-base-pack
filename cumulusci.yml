@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '4.3.0'
+project:
+    name: agrec-base-pack
+    package:
+        name: agrec-base-pack
+        api_version: '62.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/agrec-base-pack/tests
+            options:
+                outputdir: robot/agrec-base-pack/results
+
+    robot_testdoc:
+        options:
+            path: robot/agrec-base-pack/tests
+            output: robot/agrec-base-pack/doc/agrec-base-pack_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 85
