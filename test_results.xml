@@ -1,141 +1,141 @@
 <testsuite tests="139">
-  <testcase classname="FinalizerHandler_Test" name="bypassFinalizerShouldSucceed" time="35" />
-  <testcase classname="FinalizerHandler_Test" name="bypassedFinalizerShouldNotExecute" time="9" />
-  <testcase classname="FinalizerHandler_Test" name="clearAllFinalizerBypassesShouldSucceed" time="6" />
-  <testcase classname="FinalizerHandler_Test" name="clearFinalizerBypassShouldSucceed" time="6" />
-  <testcase classname="FinalizerHandler_Test" name="finalizerIsBypassedShouldSucceed" time="5" />
-  <testcase classname="FinalizerHandler_Test" name="finalizerThatInvokesDmlShouldCauseException" time="10" />
-  <testcase classname="FinalizerHandler_Test" name="finalizersShouldExecuteInOrder" time="8" />
-  <testcase classname="FinalizerHandler_Test" name="invalidFinalizerClassShouldThrowException" time="8" />
-  <testcase classname="FinalizerHandler_Test" name="noConfiguredFinalizerShouldTakeNoAction" time="19" />
-  <testcase classname="FinalizerHandler_Test" name="properlyConfiguredFinalizerShouldExecute" time="13" />
-  <testcase classname="FinalizerHandler_Test" name="referencedClassDoesNotImplementDmlFinalizerShouldThrowException" time="8" />
-  <testcase classname="FinalizerHandler_Test" name="staticallyBypassedFinalizerShouldNotExecute" time="6" />
-  <testcase classname="FinalizerHandler_Test" name="userWithBypassPermissionDefinedOnFinalizerShouldNotExecute" time="6" />
-  <testcase classname="FinalizerHandler_Test" name="userWithoutRequiredPermissionDefinedOnFinalizerShouldNotExecute" time="6" />
-  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToCompare" time="49" />
-  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToConstruct" time="6" />
-  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToGenerateHashCode" time="6" />
-  <testcase classname="FormulaFilter_Test" name="emptyClassShouldThrowException" time="48" />
-  <testcase classname="FormulaFilter_Test" name="emptyStringFormulaShouldProcessAllRecords" time="6" />
-  <testcase classname="FormulaFilter_Test" name="invalidFormulaSyntaxShouldThrowException" time="29" />
-  <testcase classname="FormulaFilter_Test" name="noFormulaShouldProcessAllRecords" time="6" />
-  <testcase classname="FormulaFilter_Test" name="nonExistentClassShouldThrowException" time="9" />
-  <testcase classname="FormulaFilter_Test" name="nonGlobalShouldThrowException" time="11" />
-  <testcase classname="FormulaFilter_Test" name="nonTriggerRecordClassShouldThrowException" time="17" />
-  <testcase classname="FormulaFilter_Test" name="nullClassShouldThrowException" time="9" />
-  <testcase classname="FormulaFilter_Test" name="validFormulaShouldFilterContentsOftriggerNew" time="9" />
-  <testcase classname="FormulaFilter_Test" name="validFormulaWithNoMatchingRecordsShouldProcessNoRecords" time="8" />
-  <testcase classname="MetadataTriggerHandler_Test" name="actionMetadataShouldConstruct" time="147" />
+  <testcase classname="FinalizerHandler_Test" name="bypassFinalizerShouldSucceed" time="34" />
+  <testcase classname="FinalizerHandler_Test" name="bypassedFinalizerShouldNotExecute" time="8" />
+  <testcase classname="FinalizerHandler_Test" name="clearAllFinalizerBypassesShouldSucceed" time="4" />
+  <testcase classname="FinalizerHandler_Test" name="clearFinalizerBypassShouldSucceed" time="5" />
+  <testcase classname="FinalizerHandler_Test" name="finalizerIsBypassedShouldSucceed" time="4" />
+  <testcase classname="FinalizerHandler_Test" name="finalizerThatInvokesDmlShouldCauseException" time="7" />
+  <testcase classname="FinalizerHandler_Test" name="finalizersShouldExecuteInOrder" time="6" />
+  <testcase classname="FinalizerHandler_Test" name="invalidFinalizerClassShouldThrowException" time="5" />
+  <testcase classname="FinalizerHandler_Test" name="noConfiguredFinalizerShouldTakeNoAction" time="15" />
+  <testcase classname="FinalizerHandler_Test" name="properlyConfiguredFinalizerShouldExecute" time="11" />
+  <testcase classname="FinalizerHandler_Test" name="referencedClassDoesNotImplementDmlFinalizerShouldThrowException" time="6" />
+  <testcase classname="FinalizerHandler_Test" name="staticallyBypassedFinalizerShouldNotExecute" time="5" />
+  <testcase classname="FinalizerHandler_Test" name="userWithBypassPermissionDefinedOnFinalizerShouldNotExecute" time="5" />
+  <testcase classname="FinalizerHandler_Test" name="userWithoutRequiredPermissionDefinedOnFinalizerShouldNotExecute" time="5" />
+  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToCompare" time="32" />
+  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToConstruct" time="5" />
+  <testcase classname="FlowChangeEventHeader_Test" name="shouldBeAbleToGenerateHashCode" time="5" />
+  <testcase classname="FormulaFilter_Test" name="emptyClassShouldThrowException" time="41" />
+  <testcase classname="FormulaFilter_Test" name="emptyStringFormulaShouldProcessAllRecords" time="4" />
+  <testcase classname="FormulaFilter_Test" name="invalidFormulaSyntaxShouldThrowException" time="8" />
+  <testcase classname="FormulaFilter_Test" name="noFormulaShouldProcessAllRecords" time="5" />
+  <testcase classname="FormulaFilter_Test" name="nonExistentClassShouldThrowException" time="7" />
+  <testcase classname="FormulaFilter_Test" name="nonGlobalShouldThrowException" time="7" />
+  <testcase classname="FormulaFilter_Test" name="nonTriggerRecordClassShouldThrowException" time="8" />
+  <testcase classname="FormulaFilter_Test" name="nullClassShouldThrowException" time="5" />
+  <testcase classname="FormulaFilter_Test" name="validFormulaShouldFilterContentsOftriggerNew" time="6" />
+  <testcase classname="FormulaFilter_Test" name="validFormulaWithNoMatchingRecordsShouldProcessNoRecords" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="actionMetadataShouldConstruct" time="148" />
   <testcase classname="MetadataTriggerHandler_Test" name="actionShouldExecuteIfNoRequiredOrBypassPermissionsAreDefinedForSObjectOrAction" time="11" />
   <testcase classname="MetadataTriggerHandler_Test" name="actionShouldExecuteIfUserDoesNotHaveBypassPermissionForSObjectOrAction" time="13" />
-  <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserDoesNotHaveRequiredPermissionForAction" time="8" />
+  <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserDoesNotHaveRequiredPermissionForAction" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserDoesNotHaveRequiredPermissionForSObject" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserHasBypassPermissionForAction" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserHasBypassPermissionForAction" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="actionShouldNotExecuteIfUserHasBypassPermissionForSObject" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterDeleteShouldFailWithIncorrectClass" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterDeleteShouldFailWithIncorrectClass" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="afterDeleteShouldFailWithIncorrectType" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterDeleteShouldSucceed" time="9" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldFailWithIncorrectClass" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldFailWithIncorrectType" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldSucceed" time="8" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterUndeleteShouldFailWithIncorrectClass" time="8" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterUndeleteShouldFailWithIncorrectType" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterDeleteShouldSucceed" time="8" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldFailWithIncorrectClass" time="6" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldFailWithIncorrectType" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterInsertShouldSucceed" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterUndeleteShouldFailWithIncorrectClass" time="6" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterUndeleteShouldFailWithIncorrectType" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="afterUndeleteShouldSucceed" time="8" />
-  <testcase classname="MetadataTriggerHandler_Test" name="afterUpdateShouldFailWithIncorrectClass" time="6" />
+  <testcase classname="MetadataTriggerHandler_Test" name="afterUpdateShouldFailWithIncorrectClass" time="5" />
   <testcase classname="MetadataTriggerHandler_Test" name="afterUpdateShouldFailWithIncorrectType" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="afterUpdateShouldSucceed" time="8" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldFailWithIncorrectClass" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldFailWithIncorrectType" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldSucceed" time="9" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeInsertShouldFailWithIncorrectClass" time="7" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeInsertShouldFailWithIncorrectType" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldFailWithIncorrectClass" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldFailWithIncorrectType" time="6" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeDeleteShouldSucceed" time="8" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeInsertShouldFailWithIncorrectClass" time="6" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeInsertShouldFailWithIncorrectType" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="beforeInsertShouldSucceed" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeUpdateShouldFailWithIncorrectClass" time="8" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeUpdateShouldFailWithIncorrectClass" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="beforeUpdateShouldFailWithIncorrectType" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="beforeUpdateShouldSucceed" time="9" />
-  <testcase classname="MetadataTriggerHandler_Test" name="bypassShouldSucceed" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="clearAllBypassesShouldSucceed" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="clearBypassShouldSucceed" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="finalizerShouldSucceed" time="10" />
+  <testcase classname="MetadataTriggerHandler_Test" name="beforeUpdateShouldSucceed" time="7" />
+  <testcase classname="MetadataTriggerHandler_Test" name="bypassShouldSucceed" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="clearAllBypassesShouldSucceed" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="clearBypassShouldSucceed" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="finalizerShouldSucceed" time="9" />
   <testcase classname="MetadataTriggerHandler_Test" name="isBypassedShouldSucceed" time="6" />
   <testcase classname="MetadataTriggerHandler_Test" name="nothingToProcessShouldExitEarly" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="theFrameworkShouldSupportFlow" time="6" />
-  <testcase classname="MetadataTriggerHandler_Test" name="theFrameworkShouldSupportSObjectsFromManagedPackages" time="17" />
-  <testcase classname="TriggerActionFlowAddError_Test" name="addErrorShouldAddAnErrorAtTheFieldSpecified" time="54" />
-  <testcase classname="TriggerActionFlowAddError_Test" name="addErrorShouldSucceedWithValidRequest" time="6" />
-  <testcase classname="TriggerActionFlowBypass_Test" name="bypassApexShouldSucceedWithValidRequest" time="75" />
-  <testcase classname="TriggerActionFlowBypass_Test" name="bypassFlowShouldSucceedWithValidRequest" time="6" />
-  <testcase classname="TriggerActionFlowBypass_Test" name="bypassObjectShouldSucceedWithValidRequest" time="6" />
-  <testcase classname="TriggerActionFlowBypass_Test" name="bypassShouldFailWithInvalidType" time="9" />
-  <testcase classname="TriggerActionFlowChangeEvent_Test" name="correctInputShouldProduceFlowInputs" time="35" />
+  <testcase classname="MetadataTriggerHandler_Test" name="theFrameworkShouldSupportFlow" time="5" />
+  <testcase classname="MetadataTriggerHandler_Test" name="theFrameworkShouldSupportSObjectsFromManagedPackages" time="16" />
+  <testcase classname="TriggerActionFlowAddError_Test" name="addErrorShouldAddAnErrorAtTheFieldSpecified" time="30" />
+  <testcase classname="TriggerActionFlowAddError_Test" name="addErrorShouldSucceedWithValidRequest" time="5" />
+  <testcase classname="TriggerActionFlowBypass_Test" name="bypassApexShouldSucceedWithValidRequest" time="99" />
+  <testcase classname="TriggerActionFlowBypass_Test" name="bypassFlowShouldSucceedWithValidRequest" time="7" />
+  <testcase classname="TriggerActionFlowBypass_Test" name="bypassObjectShouldSucceedWithValidRequest" time="7" />
+  <testcase classname="TriggerActionFlowBypass_Test" name="bypassShouldFailWithInvalidType" time="10" />
+  <testcase classname="TriggerActionFlowChangeEvent_Test" name="correctInputShouldProduceFlowInputs" time="36" />
   <testcase classname="TriggerActionFlowChangeEvent_Test" name="emptyInputShouldProduceEmptyFlowInputs" time="6" />
-  <testcase classname="TriggerActionFlowChangeEvent_Test" name="wrongDataTypeShouldThrowException" time="6" />
-  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassApexShouldSucceedWithValidRequest" time="30" />
-  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassFlowShouldSucceedWithValidRequest" time="5" />
-  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassObjectShouldSucceedWithValidRequest" time="7" />
-  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassShouldFailWithInvalidType" time="8" />
-  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassApexShouldSucceedWithValidRequest" time="47" />
+  <testcase classname="TriggerActionFlowChangeEvent_Test" name="wrongDataTypeShouldThrowException" time="5" />
+  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassApexShouldSucceedWithValidRequest" time="28" />
+  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassFlowShouldSucceedWithValidRequest" time="4" />
+  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassObjectShouldSucceedWithValidRequest" time="4" />
+  <testcase classname="TriggerActionFlowClearAllBypasses_Test" name="clearAllBypassShouldFailWithInvalidType" time="6" />
+  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassApexShouldSucceedWithValidRequest" time="40" />
   <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassFlowShouldSucceedWithValidRequest" time="7" />
-  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassObjecthouldSucceedWithValidRequest" time="6" />
-  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassShouldFailWithInvalidType" time="8" />
-  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedApexShouldSucceedWithValidRequest" time="45" />
-  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedFlowShouldSucceedWithValidRequest" time="2" />
-  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedObjectShouldSucceedWithValidRequest" time="2" />
-  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedShouldFailWithInvalidType" time="3" />
-  <testcase classname="TriggerActionFlow_Test" name="afterDeleteShouldSucceed" time="50" />
-  <testcase classname="TriggerActionFlow_Test" name="afterInsertShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="afterUndeleteShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassObjecthouldSucceedWithValidRequest" time="7" />
+  <testcase classname="TriggerActionFlowClearBypass_Test" name="clearBypassShouldFailWithInvalidType" time="10" />
+  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedApexShouldSucceedWithValidRequest" time="58" />
+  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedFlowShouldSucceedWithValidRequest" time="4" />
+  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedObjectShouldSucceedWithValidRequest" time="6" />
+  <testcase classname="TriggerActionFlowIsBypassed_Test" name="isBypassedShouldFailWithInvalidType" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="afterDeleteShouldSucceed" time="56" />
+  <testcase classname="TriggerActionFlow_Test" name="afterInsertShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="afterUndeleteShouldSucceed" time="6" />
   <testcase classname="TriggerActionFlow_Test" name="afterUpdateShouldSucceed" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="afterUpdateWithNoRecordsToProcessShouldSucceed" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="beforeDeleteShouldSucceed" time="3" />
-  <testcase classname="TriggerActionFlow_Test" name="beforeInsertShouldSucceed" time="4" />
+  <testcase classname="TriggerActionFlow_Test" name="afterUpdateWithNoRecordsToProcessShouldSucceed" time="4" />
+  <testcase classname="TriggerActionFlow_Test" name="beforeDeleteShouldSucceed" time="4" />
+  <testcase classname="TriggerActionFlow_Test" name="beforeInsertShouldSucceed" time="6" />
   <testcase classname="TriggerActionFlow_Test" name="beforeUpdateShouldSucceed" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="beforeUpdateWithNoRecordsToProcessShouldSucceed" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="bypassShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="clearAllBypassesShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="clearBypassShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="emptyFlowNameShouldThrowException" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="flowMissingRecordVariableInOutputShouldThrowException" time="5" />
-  <testcase classname="TriggerActionFlow_Test" name="invokeFlowShouldReturnUnsuccessfulResponseWithBogusFlowName" time="25" />
+  <testcase classname="TriggerActionFlow_Test" name="beforeUpdateWithNoRecordsToProcessShouldSucceed" time="4" />
+  <testcase classname="TriggerActionFlow_Test" name="bypassShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="clearAllBypassesShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="clearBypassShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="emptyFlowNameShouldThrowException" time="7" />
+  <testcase classname="TriggerActionFlow_Test" name="flowMissingRecordVariableInOutputShouldThrowException" time="6" />
+  <testcase classname="TriggerActionFlow_Test" name="invokeFlowShouldReturnUnsuccessfulResponseWithBogusFlowName" time="18" />
   <testcase classname="TriggerActionFlow_Test" name="isBypassedShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="noRecordMutationsShouldSucceed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="nulledFieldInFlowShouldBeTransferredBack" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="shouldDoNothingWhenBypassed" time="4" />
-  <testcase classname="TriggerActionFlow_Test" name="unsuccessfulActionResultShouldBeAddedAsErrorToRecord" time="6" />
-  <testcase classname="TriggerActionFlow_Test" name="validateTypeShouldThrowExceptionWithInvalidInput" time="5" />
-  <testcase classname="TriggerBase_Test" name="afterDeleteShouldSucceed" time="155" />
+  <testcase classname="TriggerActionFlow_Test" name="noRecordMutationsShouldSucceed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="nulledFieldInFlowShouldBeTransferredBack" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="shouldDoNothingWhenBypassed" time="5" />
+  <testcase classname="TriggerActionFlow_Test" name="unsuccessfulActionResultShouldBeAddedAsErrorToRecord" time="7" />
+  <testcase classname="TriggerActionFlow_Test" name="validateTypeShouldThrowExceptionWithInvalidInput" time="6" />
+  <testcase classname="TriggerBase_Test" name="afterDeleteShouldSucceed" time="56" />
   <testcase classname="TriggerBase_Test" name="afterInsertShouldSucceed" time="4" />
-  <testcase classname="TriggerBase_Test" name="afterUndeleteShouldSucceed" time="5" />
-  <testcase classname="TriggerBase_Test" name="afterUpdateShouldSucceed" time="6" />
-  <testcase classname="TriggerBase_Test" name="beforeDeleteShouldSucceed" time="5" />
-  <testcase classname="TriggerBase_Test" name="beforeInsertShouldSucceed" time="5" />
-  <testcase classname="TriggerBase_Test" name="beforeUpdateShouldSucceed" time="5" />
+  <testcase classname="TriggerBase_Test" name="afterUndeleteShouldSucceed" time="4" />
+  <testcase classname="TriggerBase_Test" name="afterUpdateShouldSucceed" time="4" />
+  <testcase classname="TriggerBase_Test" name="beforeDeleteShouldSucceed" time="3" />
+  <testcase classname="TriggerBase_Test" name="beforeInsertShouldSucceed" time="4" />
+  <testcase classname="TriggerBase_Test" name="beforeUpdateShouldSucceed" time="3" />
   <testcase classname="TriggerBase_Test" name="bypassShouldSucceed" time="4" />
   <testcase classname="TriggerBase_Test" name="clearAllBypassesShouldSucceed" time="4" />
-  <testcase classname="TriggerBase_Test" name="clearBypassShouldSucceed" time="5" />
-  <testcase classname="TriggerBase_Test" name="finalizingWithoutWaitingShouldThrowError" time="5" />
-  <testcase classname="TriggerBase_Test" name="idToNumberOfTimesSeenAfterUpdate" time="6" />
-  <testcase classname="TriggerBase_Test" name="idToNumberOfTimesSeenBeforeUpdate" time="4" />
-  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationDelete" time="5" />
+  <testcase classname="TriggerBase_Test" name="clearBypassShouldSucceed" time="3" />
+  <testcase classname="TriggerBase_Test" name="finalizingWithoutWaitingShouldThrowError" time="3" />
+  <testcase classname="TriggerBase_Test" name="idToNumberOfTimesSeenAfterUpdate" time="4" />
+  <testcase classname="TriggerBase_Test" name="idToNumberOfTimesSeenBeforeUpdate" time="3" />
+  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationDelete" time="4" />
   <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationInsert" time="4" />
-  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationUndelete" time="4" />
-  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationUpdate" time="5" />
-  <testcase classname="TriggerBase_Test" name="isBypassedShouldSucceed" time="4" />
+  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationUndelete" time="3" />
+  <testcase classname="TriggerBase_Test" name="inverseContextsShouldFinalizeDmlOperationUpdate" time="4" />
+  <testcase classname="TriggerBase_Test" name="isBypassedShouldSucceed" time="3" />
   <testcase classname="TriggerBase_Test" name="offsetRowsShouldWork" time="4" />
-  <testcase classname="TriggerBase_Test" name="oldAndNewShouldComeFromTrigger" time="5" />
-  <testcase classname="TriggerBase_Test" name="peekShouldShowMostRecentlyAdded" time="5" />
-  <testcase classname="TriggerBase_Test" name="peekingStackWhileEmptyShouldThrowException" time="5" />
-  <testcase classname="TriggerBase_Test" name="poppingStackWhileEmptyShouldThrowException" time="5" />
-  <testcase classname="TriggerBase_Test" name="runShouldDoNothingWhenBypassed" time="4" />
+  <testcase classname="TriggerBase_Test" name="oldAndNewShouldComeFromTrigger" time="3" />
+  <testcase classname="TriggerBase_Test" name="peekShouldShowMostRecentlyAdded" time="3" />
+  <testcase classname="TriggerBase_Test" name="peekingStackWhileEmptyShouldThrowException" time="3" />
+  <testcase classname="TriggerBase_Test" name="poppingStackWhileEmptyShouldThrowException" time="3" />
+  <testcase classname="TriggerBase_Test" name="runShouldDoNothingWhenBypassed" time="3" />
   <testcase classname="TriggerBase_Test" name="runShouldFailWhenCalledOutsideTrigger" time="4" />
-  <testcase classname="TriggerBase_Test" name="sObjectNameShouldBePopulatedFromTriggerNew" time="4" />
-  <testcase classname="TriggerBase_Test" name="sObjectNameShouldBePopulatedFromTriggerOld" time="5" />
-  <testcase classname="TriggerBase_Test" name="stackDepthShouldBeCalculatedProperly" time="4" />
-  <testcase classname="TriggerBase_Test" name="stackShouldBeFirstInLastOut" time="4" />
+  <testcase classname="TriggerBase_Test" name="sObjectNameShouldBePopulatedFromTriggerNew" time="3" />
+  <testcase classname="TriggerBase_Test" name="sObjectNameShouldBePopulatedFromTriggerOld" time="4" />
+  <testcase classname="TriggerBase_Test" name="stackDepthShouldBeCalculatedProperly" time="3" />
+  <testcase classname="TriggerBase_Test" name="stackShouldBeFirstInLastOut" time="3" />
   <testcase classname="TriggerBase_Test" name="stackShouldBeLastInFirstOut" time="4" />
-  <testcase classname="TriggerBase_Test" name="stacksShouldBeAbleToDetermineIftheyAreEmpty" time="4" />
-  <testcase classname="TriggerBase_Test" name="waitingThenFinalizingShouldWork" time="4" />
-  <testcase classname="TriggerRecord_Test" name="shouldBeAbleToConstructATriggerRecord" time="26" />
-  <testcase classname="Triggers_Test" name="testContentDocumentLinkTrigger" time="1246" />
+  <testcase classname="TriggerBase_Test" name="stacksShouldBeAbleToDetermineIftheyAreEmpty" time="3" />
+  <testcase classname="TriggerBase_Test" name="waitingThenFinalizingShouldWork" time="3" />
+  <testcase classname="TriggerRecord_Test" name="shouldBeAbleToConstructATriggerRecord" time="20" />
+  <testcase classname="Triggers_Test" name="testContentDocumentLinkTrigger" time="1087" />
 </testsuite>

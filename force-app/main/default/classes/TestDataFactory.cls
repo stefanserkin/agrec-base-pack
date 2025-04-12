@@ -1,3 +1,4 @@
+@NamespaceAccessible
 @IsTest
 public class TestDataFactory {
 
