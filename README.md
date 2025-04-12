@@ -1,12 +1,14 @@
-# agrec-base-pack
+# agrec Base Pack
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+A base pack for common utilities shared across Asphalt Green packages extending Traction Rec.
 
-## Development
+## Docs
 
-To work on this project in a scratch org:
+- [Quip](https://quip.com/mLdMARiTPXYY/AG-Traction-Rec-Extensions-Base-Pack)
+- [CumulusCI](https://cumulusci.readthedocs.io/en/latest/intro.html)
+- [Mitch Spano's Trigger Actions Framework](https://github.com/mitchspano/trigger-actions-framework)
 
-1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
-2. Run `cci flow run dev_org --org dev` to deploy this project.
-3. Run `cci org browser dev` to open the org in your browser.
+## Trigger Actions Framework
+
+This framework is derived from Mitch Spano’s open-source Trigger Actions Framework, licensed under the [Apache 2.0 License](https://github.com/mitchspano/trigger-actions-framework/blob/main/LICENSE).
+See: https://github.com/mitchspano/trigger-actions-framework
