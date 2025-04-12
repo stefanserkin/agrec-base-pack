@@ -3,6 +3,7 @@ project:
     name: agrec-base-pack
     package:
         name: agrec-base-pack
+        namespace: agrec
         api_version: '62.0'
     git:
         default_branch: 'main'
