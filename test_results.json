@@ -1,567 +1,243 @@
 [
     {
         "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "bypassFinalizerShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 55
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "bypassedFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "clearAllFinalizerBypassesShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "clearFinalizerBypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "finalizerIsBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "finalizerThatInvokesDmlShouldCauseException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "finalizersShouldExecuteInOrder",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "invalidFinalizerClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "noConfiguredFinalizerShouldTakeNoAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 12
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "properlyConfiguredFinalizerShouldExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 11
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "referencedClassDoesNotImplementDmlFinalizerShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "staticallyBypassedFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "userWithBypassPermissionDefinedOnFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandlerTest",
-        "Method": "userWithoutRequiredPermissionDefinedOnFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
         "ClassName": "FinalizerHandler_Test",
         "Method": "bypassFinalizerShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 23
+            "duration": 36
         },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
         "ClassName": "FinalizerHandler_Test",
         "Method": "bypassedFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "clearAllFinalizerBypassesShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "clearFinalizerBypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "finalizerIsBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "finalizerThatInvokesDmlShouldCauseException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "finalizersShouldExecuteInOrder",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "invalidFinalizerClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "noConfiguredFinalizerShouldTakeNoAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "properlyConfiguredFinalizerShouldExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 12
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "referencedClassDoesNotImplementDmlFinalizerShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "staticallyBypassedFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "userWithBypassPermissionDefinedOnFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FinalizerHandler_Test",
-        "Method": "userWithoutRequiredPermissionDefinedOnFinalizerShouldNotExecute",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeaderTest",
-        "Method": "shouldBeAbleToCompare",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 13
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeaderTest",
-        "Method": "shouldBeAbleToConstruct",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeaderTest",
-        "Method": "shouldBeAbleToGenerateHashCode",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeader_Test",
-        "Method": "shouldBeAbleToCompare",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 30
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeader_Test",
-        "Method": "shouldBeAbleToConstruct",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FlowChangeEventHeader_Test",
-        "Method": "shouldBeAbleToGenerateHashCode",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "emptyClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 23
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "emptyStringFormulaShouldProcessAllRecords",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "invalidFormulaSyntaxShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 30
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "noFormulaShouldProcessAllRecords",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "nonExistentClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "nonGlobalShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "nonTriggerRecordClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 14
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "nullClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "validFormulaShouldFilterContentsOftriggerNew",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilterTest",
-        "Method": "validFormulaWithNoMatchingRecordsShouldProcessNoRecords",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilter_Test",
-        "Method": "emptyClassShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 34
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilter_Test",
-        "Method": "emptyStringFormulaShouldProcessAllRecords",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "FormulaFilter_Test",
-        "Method": "invalidFormulaSyntaxShouldThrowException",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
             "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "clearAllFinalizerBypassesShouldSucceed",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "clearFinalizerBypassShouldSucceed",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "finalizerIsBypassedShouldSucceed",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 5
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "finalizerThatInvokesDmlShouldCauseException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "finalizersShouldExecuteInOrder",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 14
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "invalidFinalizerClassShouldThrowException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 8
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "noConfiguredFinalizerShouldTakeNoAction",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 20
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "properlyConfiguredFinalizerShouldExecute",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 12
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "referencedClassDoesNotImplementDmlFinalizerShouldThrowException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "staticallyBypassedFinalizerShouldNotExecute",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "userWithBypassPermissionDefinedOnFinalizerShouldNotExecute",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FinalizerHandler_Test",
+        "Method": "userWithoutRequiredPermissionDefinedOnFinalizerShouldNotExecute",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FlowChangeEventHeader_Test",
+        "Method": "shouldBeAbleToCompare",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 25
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FlowChangeEventHeader_Test",
+        "Method": "shouldBeAbleToConstruct",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 2
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FlowChangeEventHeader_Test",
+        "Method": "shouldBeAbleToGenerateHashCode",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 3
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FormulaFilter_Test",
+        "Method": "emptyClassShouldThrowException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 42
+        },
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FormulaFilter_Test",
+        "Method": "emptyStringFormulaShouldProcessAllRecords",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "FormulaFilter_Test",
+        "Method": "invalidFormulaSyntaxShouldThrowException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 56
+        },
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -571,9 +247,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -583,9 +259,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -595,9 +271,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 10
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -607,9 +283,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 16
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -619,9 +295,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 10
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -631,9 +307,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
     },
     {
         "Children": null,
@@ -643,441 +319,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:55:58.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionMetadataShouldConstruct",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 135
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldExecuteIfNoRequiredOrBypassPermissionsAreDefinedForSObjectOrAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 12
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldExecuteIfUserDoesNotHaveBypassPermissionForSObjectOrAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 15
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldNotExecuteIfUserDoesNotHaveRequiredPermissionForAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldNotExecuteIfUserDoesNotHaveRequiredPermissionForSObject",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldNotExecuteIfUserHasBypassPermissionForAction",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "actionShouldNotExecuteIfUserHasBypassPermissionForSObject",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterDeleteShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterDeleteShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterInsertShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterInsertShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUndeleteShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUndeleteShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUndeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUpdateShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUpdateShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "afterUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeDeleteShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeDeleteShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeInsertShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeInsertShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeUpdateShouldFailWithIncorrectClass",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeUpdateShouldFailWithIncorrectType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "beforeUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "bypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "clearAllBypassesShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "clearBypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "finalizerShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 517
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "isBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "nothingToProcessShouldExitEarly",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 8
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "theFrameworkShouldSupportFlow",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 10
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "MetadataTriggerHandlerTest",
-        "Method": "theFrameworkShouldSupportSObjectsFromManagedPackages",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 18
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:36.000+0000"
     },
     {
         "Children": null,
@@ -1087,9 +331,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 154
+            "duration": 142
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -1099,9 +343,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 12
+            "duration": 14
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1111,9 +355,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 12
+            "duration": 14
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1125,7 +369,7 @@
         "Stats": {
             "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1135,9 +379,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1147,9 +391,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1159,9 +403,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1173,7 +417,7 @@
         "Stats": {
             "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1185,7 +429,7 @@
         "Stats": {
             "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1195,9 +439,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1207,9 +451,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1219,9 +463,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 8
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1231,9 +475,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 8
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1243,9 +487,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1255,9 +499,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1267,9 +511,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 8
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1279,9 +523,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1291,9 +535,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 8
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1303,9 +547,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1317,7 +561,7 @@
         "Stats": {
             "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1327,9 +571,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1339,9 +583,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1351,9 +595,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 4
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1363,9 +607,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1375,9 +619,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 4
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1387,9 +631,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1399,9 +643,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1413,7 +657,7 @@
         "Stats": {
             "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1425,7 +669,7 @@
         "Stats": {
             "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1435,9 +679,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1447,9 +691,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1459,9 +703,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 8
+            "duration": 4
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1471,9 +715,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1483,9 +727,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 5
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1495,9 +739,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -1507,777 +751,273 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 18
+            "duration": 14
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowAddErrorTest",
-        "Method": "addErrorShouldAddAnErrorAtTheFieldSpecified",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 77
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowAddErrorTest",
-        "Method": "addErrorShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
         "ClassName": "TriggerActionFlowAddError_Test",
         "Method": "addErrorShouldAddAnErrorAtTheFieldSpecified",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 24
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowAddError_Test",
-        "Method": "addErrorShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypassTest",
-        "Method": "bypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 150
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypassTest",
-        "Method": "bypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypassTest",
-        "Method": "bypassObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypassTest",
-        "Method": "bypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypass_Test",
-        "Method": "bypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 31
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypass_Test",
-        "Method": "bypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypass_Test",
-        "Method": "bypassObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowBypass_Test",
-        "Method": "bypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEventTest",
-        "Method": "correctInputShouldProduceFlowInputs",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 165
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEventTest",
-        "Method": "emptyInputShouldProduceEmptyFlowInputs",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEventTest",
-        "Method": "wrongDataTypeShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEvent_Test",
-        "Method": "correctInputShouldProduceFlowInputs",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 39
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEvent_Test",
-        "Method": "emptyInputShouldProduceEmptyFlowInputs",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowChangeEvent_Test",
-        "Method": "wrongDataTypeShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypassesTest",
-        "Method": "clearAllBypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 221
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypassesTest",
-        "Method": "clearAllBypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypassesTest",
-        "Method": "clearAllBypassObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypassesTest",
-        "Method": "clearAllBypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
-        "Method": "clearAllBypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 39
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
-        "Method": "clearAllBypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
-        "Method": "clearAllBypassObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
-        "Method": "clearAllBypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypassTest",
-        "Method": "clearBypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 120
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypassTest",
-        "Method": "clearBypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypassTest",
-        "Method": "clearBypassObjecthouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypassTest",
-        "Method": "clearBypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 7
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypass_Test",
-        "Method": "clearBypassApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 16
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypass_Test",
-        "Method": "clearBypassFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 2
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypass_Test",
-        "Method": "clearBypassObjecthouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 2
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowClearBypass_Test",
-        "Method": "clearBypassShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:55:57.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassedTest",
-        "Method": "isBypassedApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 64
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassedTest",
-        "Method": "isBypassedFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassedTest",
-        "Method": "isBypassedObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassedTest",
-        "Method": "isBypassedShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassed_Test",
-        "Method": "isBypassedApexShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 23
-        },
-        "TestTimestamp": "2025-04-12T21:56:09.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassed_Test",
-        "Method": "isBypassedFlowShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:09.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassed_Test",
-        "Method": "isBypassedObjectShouldSucceedWithValidRequest",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:09.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowIsBypassed_Test",
-        "Method": "isBypassedShouldFailWithInvalidType",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:09.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "afterDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 28
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "afterInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "afterUndeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "afterUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "afterUpdateWithNoRecordsToProcessShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "beforeDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "beforeInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "beforeUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 6
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "beforeUpdateWithNoRecordsToProcessShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "bypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "clearAllBypassesShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "clearBypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "emptyFlowNameShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "flowMissingRecordVariableInOutputShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "invokeFlowShouldReturnUnsuccessfulResponseWithBogusFlowName",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 11
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "isBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "noRecordMutationsShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "nulledFieldInFlowShouldBeTransferredBack",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "shouldDoNothingWhenBypassed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "unsuccessfulActionResultShouldBeAddedAsErrorToRecord",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlowTest",
-        "Method": "validateTypeShouldThrowExceptionWithInvalidInput",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerActionFlow_Test",
-        "Method": "afterDeleteShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
             "duration": 35
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:46.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowAddError_Test",
+        "Method": "addErrorShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:46.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowBypass_Test",
+        "Method": "bypassApexShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 63
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowBypass_Test",
+        "Method": "bypassFlowShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowBypass_Test",
+        "Method": "bypassObjectShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowBypass_Test",
+        "Method": "bypassShouldFailWithInvalidType",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 13
+        },
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowChangeEvent_Test",
+        "Method": "correctInputShouldProduceFlowInputs",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 44
+        },
+        "TestTimestamp": "2025-04-12T22:00:34.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowChangeEvent_Test",
+        "Method": "emptyInputShouldProduceEmptyFlowInputs",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 9
+        },
+        "TestTimestamp": "2025-04-12T22:00:34.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowChangeEvent_Test",
+        "Method": "wrongDataTypeShouldThrowException",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 10
+        },
+        "TestTimestamp": "2025-04-12T22:00:35.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
+        "Method": "clearAllBypassApexShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 29
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
+        "Method": "clearAllBypassFlowShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 5
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
+        "Method": "clearAllBypassObjectShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 3
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearAllBypasses_Test",
+        "Method": "clearAllBypassShouldFailWithInvalidType",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 4
+        },
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearBypass_Test",
+        "Method": "clearBypassApexShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 38
+        },
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearBypass_Test",
+        "Method": "clearBypassFlowShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearBypass_Test",
+        "Method": "clearBypassObjecthouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 6
+        },
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowClearBypass_Test",
+        "Method": "clearBypassShouldFailWithInvalidType",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 12
+        },
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowIsBypassed_Test",
+        "Method": "isBypassedApexShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 55
+        },
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowIsBypassed_Test",
+        "Method": "isBypassedFlowShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowIsBypassed_Test",
+        "Method": "isBypassedObjectShouldSucceedWithValidRequest",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 7
+        },
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlowIsBypassed_Test",
+        "Method": "isBypassedShouldFailWithInvalidType",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 11
+        },
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
+    },
+    {
+        "Children": null,
+        "ClassName": "TriggerActionFlow_Test",
+        "Method": "afterDeleteShouldSucceed",
+        "Message": null,
+        "Outcome": "Pass",
+        "StackTrace": null,
+        "Stats": {
+            "duration": 42
+        },
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2287,9 +1027,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2299,9 +1039,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2311,9 +1051,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2323,9 +1063,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2335,9 +1075,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2347,9 +1087,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2359,9 +1099,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 10
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2371,9 +1111,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2383,9 +1123,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2395,9 +1135,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2407,9 +1147,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2419,9 +1159,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 11
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2431,9 +1171,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 11
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2443,9 +1183,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 10
+            "duration": 297
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2455,9 +1195,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 3
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2467,9 +1207,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:44.000+0000"
     },
     {
         "Children": null,
@@ -2479,9 +1219,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
     },
     {
         "Children": null,
@@ -2491,9 +1231,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 6
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
     },
     {
         "Children": null,
@@ -2503,9 +1243,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 7
+            "duration": 9
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
     },
     {
         "Children": null,
@@ -2515,609 +1255,225 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 10
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:45.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "afterDeleteShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 37
+            "duration": 89
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "afterInsertShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "afterUndeleteShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 3
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "afterUpdateShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "beforeDeleteShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 3
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "beforeInsertShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "beforeUpdateShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "bypassShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "clearAllBypassesShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 10
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "clearBypassShouldSucceed",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "finalizingWithoutWaitingShouldThrowError",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "idToNumberOfTimesSeenAfterUpdate",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "idToNumberOfTimesSeenBeforeUpdate",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "inverseContextsShouldFinalizeDmlOperationDelete",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "inverseContextsShouldFinalizeDmlOperationInsert",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "inverseContextsShouldFinalizeDmlOperationUndelete",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "inverseContextsShouldFinalizeDmlOperationUpdate",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 5
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
-        "ClassName": "TriggerBaseTest",
+        "ClassName": "TriggerBase_Test",
         "Method": "isBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "offsetRowsShouldWork",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "oldAndNewShouldComeFromTrigger",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "peekShouldShowMostRecentlyAdded",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "peekingStackWhileEmptyShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "poppingStackWhileEmptyShouldThrowException",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "runShouldDoNothingWhenBypassed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "runShouldFailWhenCalledOutsideTrigger",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "sObjectNameShouldBePopulatedFromTriggerNew",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "sObjectNameShouldBePopulatedFromTriggerOld",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "stackDepthShouldBeCalculatedProperly",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "stackShouldBeFirstInLastOut",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "stackShouldBeLastInFirstOut",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 3
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "stacksShouldBeAbleToDetermineIftheyAreEmpty",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBaseTest",
-        "Method": "waitingThenFinalizingShouldWork",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "afterDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 56
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "afterInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "afterUndeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "afterUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "beforeDeleteShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "beforeInsertShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "beforeUpdateShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "bypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "clearAllBypassesShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "clearBypassShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "finalizingWithoutWaitingShouldThrowError",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "idToNumberOfTimesSeenAfterUpdate",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "idToNumberOfTimesSeenBeforeUpdate",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "inverseContextsShouldFinalizeDmlOperationDelete",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "inverseContextsShouldFinalizeDmlOperationInsert",
         "Message": null,
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
             "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "inverseContextsShouldFinalizeDmlOperationUndelete",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "inverseContextsShouldFinalizeDmlOperationUpdate",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 5
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerBase_Test",
-        "Method": "isBypassedShouldSucceed",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 4
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3127,9 +1483,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3139,9 +1495,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3151,9 +1507,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3163,9 +1519,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3175,9 +1531,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3187,9 +1543,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 8
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3199,9 +1555,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3211,9 +1567,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 3
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3223,9 +1579,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3235,9 +1591,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 6
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3247,9 +1603,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3259,9 +1615,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3271,9 +1627,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 4
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3283,21 +1639,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 3
+            "duration": 7
         },
-        "TestTimestamp": "2025-04-12T21:56:07.000+0000"
-    },
-    {
-        "Children": null,
-        "ClassName": "TriggerRecordTest",
-        "Method": "shouldBeAbleToConstructATriggerRecord",
-        "Message": null,
-        "Outcome": "Pass",
-        "StackTrace": null,
-        "Stats": {
-            "duration": 17
-        },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     },
     {
         "Children": null,
@@ -3307,9 +1651,9 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 28
+            "duration": 32
         },
-        "TestTimestamp": "2025-04-12T21:56:06.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:42.000+0000"
     },
     {
         "Children": null,
@@ -3319,7 +1663,7 @@
         "Outcome": "Pass",
         "StackTrace": null,
         "Stats": {
-            "duration": 615,
+            "duration": 846,
             "TESTING_LIMITS: Number of SOQL queries": {
                 "used": 0,
                 "allowed": 100
@@ -3337,7 +1681,7 @@
                 "allowed": 10000
             },
             "TESTING_LIMITS: Maximum CPU time": {
-                "used": 123,
+                "used": 112,
                 "allowed": 10000
             },
             "TESTING_LIMITS: Number of query rows": {
@@ -3361,6 +1705,6 @@
                 "allowed": 100
             }
         },
-        "TestTimestamp": "2025-04-12T21:55:56.000+0000"
+        "TestTimestamp": "2025-04-12T22:00:43.000+0000"
     }
 ]
