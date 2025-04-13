@@ -11,10 +11,8 @@ project:
         name_match: '%_Test%'
     source_format: sfdx
     dependencies:
-        - namespace: TPAY2
-          version: 3.5
-        - namespace: TREX1
-          version: 57.0
+        - version_id: 04t1U0000058cL3QAI
+        - version_id: 04t5G000003RUjoQAG
 
 tasks:
     assign_base_admin_permset:
