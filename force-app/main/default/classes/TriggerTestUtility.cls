@@ -23,8 +23,11 @@
  *
  * - `getFakeId`: This method generates a fake ID for the specified sObject type.
  */
+
+@NamespaceAccessible
 @IsTest
 public class TriggerTestUtility {
+
 	private static Integer myNumber = 1;
 
 	/**
@@ -40,4 +43,5 @@ public class TriggerTestUtility {
 		'0'.repeat(12 - result.length()) +
 		result);
 	}
+	
 }
