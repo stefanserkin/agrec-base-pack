@@ -12,9 +12,9 @@ project:
     source_format: sfdx
     dependencies:
         - namespace: TP2
-          version: 3.6
+          version: 3.5
         - namespace: TREX1
-          version: 3.6
+          version: 57.0
 
 tasks:
     assign_base_admin_permset:
