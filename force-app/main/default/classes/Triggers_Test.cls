@@ -13,4 +13,16 @@ private class Triggers_Test {
         Test.stopTest();
     }
 
+    @IsTest
+    static void testTransactionTrigger() {
+        List<Contact> contacts = TestDataFactory.createContacts(1);
+        insert contacts;
+
+        TREX1__Transaction__c trx = TestDataFactory.createTransaction(contacts[0].Id);
+
+        Test.startTest();
+        List<Database.SaveResult> results = Database.insert(new List<TREX1__Transaction__c>{trx}, false);
+        Test.stopTest();
+    }
+
 }
