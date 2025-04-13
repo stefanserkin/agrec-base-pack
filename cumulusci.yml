@@ -81,3 +81,7 @@ orgs:
     scratch:
         build:
             config_file: orgs/build.json
+        beta_named:
+            config_file: orgs/beta.json
+            days: 7
+            namespaced: True
