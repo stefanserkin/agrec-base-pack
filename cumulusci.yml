@@ -10,6 +10,11 @@ project:
     test:
         name_match: '%_Test%'
     source_format: sfdx
+    dependencies:
+        - namespace: TP2
+          version: 3.6
+        - namespace: TREX1
+          version: 3.6
 
 tasks:
     assign_base_admin_permset:
