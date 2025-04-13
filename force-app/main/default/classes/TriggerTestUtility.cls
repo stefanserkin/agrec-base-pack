@@ -36,6 +36,7 @@ public class TriggerTestUtility {
 	 * @param sObjectType The sObject type to generate a fake ID for.
 	 * @return A fake ID for the specified sObject type.
 	 */
+	@NamespaceAccessible
 	public static Id getFakeId(Schema.SObjectType sObjectType) {
 		String result = String.valueOf(myNumber++);
 		return (Id) (sObjectType.getDescribe(SObjectDescribeOptions.DEFERRED)
