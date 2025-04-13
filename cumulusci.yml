@@ -11,7 +11,7 @@ project:
         name_match: '%_Test%'
     source_format: sfdx
     dependencies:
-        - namespace: TP2
+        - namespace: TPAY2
           version: 3.5
         - namespace: TREX1
           version: 57.0
