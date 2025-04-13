@@ -2,6 +2,7 @@
 @IsTest
 public class TestDataFactory {
 
+    @NamespaceAccessible
     public static List<Account> createAccounts(Integer numberOfRecords) {
         List<Account> records = new List<Account>();
         for (Integer i = 0; i < numberOfRecords; i++) {
@@ -12,6 +13,7 @@ public class TestDataFactory {
         return records;
     }
 
+    @NamespaceAccessible
     public static List<Contact> createContacts(Integer numberOfRecords) {
         List<Contact> records = new List<Contact>();
         for (Integer i = 0; i < numberOfRecords; i++) {
@@ -26,6 +28,7 @@ public class TestDataFactory {
         return records;
     }
     
+    @NamespaceAccessible
     public static List<ContentDocumentLink> createFiles(List<SObject> linkedEntities) {
         ContentVersion cv = new ContentVersion();
         cv.title = 'Test CDL Trigger';      
@@ -43,6 +46,7 @@ public class TestDataFactory {
         return cdls;
     }
 
+    @NamespaceAccessible
     public static ContentDocumentLink createContentDocumentLink(Id linkedEntityId, Id contentDocumentId) {
         ContentDocumentLink cdl = new ContentDocumentLink();
         cdl.LinkedEntityId = linkedEntityId;
@@ -52,6 +56,7 @@ public class TestDataFactory {
         return cdl;
     }
 
+    @NamespaceAccessible
     public static TREX1__Transaction__c createTransaction(Id contactId) {
         Id recordTypeId = Schema.SObjectType.TREX1__Transaction__c.getRecordTypeInfosByDeveloperName().get('Standard').getRecordTypeId();
         TREX1__Transaction__c trx = new TREX1__Transaction__c();
