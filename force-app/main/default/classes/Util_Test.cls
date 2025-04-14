@@ -30,8 +30,8 @@ private class Util_Test {
         String classResult = Util.prefixClassNamespace(className);
         Test.stopTest();
 
-        String expectedFieldResult = hasNamespace ? className.substringBefore('.') + '__' + fieldName : fieldName;
-        String expectedClassResult = hasNamespace ? className.substringBefore('.') + '.' + className : className;
+        String expectedFieldResult = hasNamespace ? localClass.substringBefore('.') + '__' + fieldName : fieldName;
+        String expectedClassResult = hasNamespace ? localClass.substringBefore('.') + '.' + className : className;
 
         System.Assert.areEqual(expectedFieldResult, fieldResult, 'Received unexpected namespace for field name');
         System.Assert.areEqual(expectedClassResult, classResult, 'Received unexpected namespace for class name');
