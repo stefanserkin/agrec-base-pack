@@ -29,11 +29,11 @@ public class TestDataFactory {
     }
     
     @NamespaceAccessible
-    public static List<ContentDocumentLink> createFiles(List<SObject> linkedEntities) {
+    public static List<ContentDocumentLink> createReceipts(List<SObject> linkedEntities) {
         ContentVersion cv = new ContentVersion();
-        cv.title = 'Test CDL Trigger';      
-        cv.PathOnClient ='test';           
-        cv.VersionData = Blob.valueOf('Test File Body');         
+        cv.title = 'receipt-012345';
+        cv.PathOnClient ='test';
+        cv.VersionData = Blob.valueOf('Test File Body');
         insert cv;
 
         ContentVersion cvRefreshed = [SELECT Id, ContentDocumentId FROM ContentVersion where Id = :cv.Id];

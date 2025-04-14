@@ -6,7 +6,7 @@ private class Triggers_Test {
         List<Account> accounts = TestDataFactory.createAccounts(1);
         insert accounts;
 
-        List<ContentDocumentLink> cdls = TestDataFactory.createFiles(accounts);
+        List<ContentDocumentLink> cdls = TestDataFactory.createReceipts(accounts);
 
         Test.startTest();
         List<Database.SaveResult> results = Database.insert(cdls, false);
