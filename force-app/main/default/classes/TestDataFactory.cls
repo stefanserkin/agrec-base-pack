@@ -2,6 +2,9 @@
 @IsTest
 public class TestDataFactory {
 
+    /**
+     * Accounts
+     */
     @NamespaceAccessible
     public static List<Account> createAccounts(Integer numberOfRecords) {
         List<Account> records = new List<Account>();
@@ -13,6 +16,9 @@ public class TestDataFactory {
         return records;
     }
 
+    /**
+     * Contacts
+     */
     @NamespaceAccessible
     public static List<Contact> createContacts(Integer numberOfRecords) {
         List<Contact> records = new List<Contact>();
@@ -28,6 +34,9 @@ public class TestDataFactory {
         return records;
     }
     
+    /**
+     * Content Document Links
+     */
     @NamespaceAccessible
     public static List<ContentDocumentLink> createReceipts(List<SObject> linkedEntities) {
         ContentVersion cv = new ContentVersion();
@@ -56,6 +65,39 @@ public class TestDataFactory {
         return cdl;
     }
 
+    /**
+     * Contract and Form
+     */
+    @NamespaceAccessible
+    public static TREX1__Contract_and_Form__c createContractScenario() {
+        Account acc = createAccounts(1).get(0);
+        insert acc;
+
+        Contact ct = createContacts(1).get(0);
+        ct.AccountId = acc.Id;
+        insert ct;
+
+        return createContract(acc.Id, ct.Id);
+    }
+
+    @NamespaceAccessible
+    public static TREX1__Contract_and_Form__c createContract(Id accountId, Id contactId) {
+        TREX1__Contract_and_Form__c contract = new TREX1__Contract_and_Form__c(
+            Name = 'Test Contract',
+            TREX1__Waiver_Text__c = 'Hello {!Name}, your account is {!TREX1__Account__r.Name} and contact account is {!TREX1__Contact__r.Account.Name}.',
+            TREX1__Account__c = accountId,
+            TREX1__Contact__c = contactId,
+            TREX1__Contract_Expiry_Policy__c = 'Always Required',
+            TREX1__Valid_For__c = 'Account',
+            TREX1__Type__c = 'Waiver Form',
+            TREX1__Status__c = 'Draft'
+        );
+        return contract;
+    }
+
+    /**
+     * Transaction (TREX1)
+     */
     @NamespaceAccessible
     public static TREX1__Transaction__c createTransaction(Id contactId) {
         Id recordTypeId = Schema.SObjectType.TREX1__Transaction__c.getRecordTypeInfosByDeveloperName().get('Standard').getRecordTypeId();
