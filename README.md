@@ -2,6 +2,17 @@
 
 A base pack for common utilities shared across Asphalt Green packages extending Traction Rec.
 
+## Third-Party Code Notice
+
+This project includes code from the [Trigger Actions Framework](https://github.com/mitchspano/trigger-actions-framework),
+licensed under the Apache License, Version 2.0.
+
+- Original Author: Mitch Spano
+- Source: https://github.com/mitchspano/trigger-actions-framework
+
+These files are © the original authors and licensed under the Apache License 2.0.
+You can find a copy of the Apache License in [apache/LICENSE](https://www.apache.org/licenses/).
+
 ## Docs
 
 - [Quip](https://quip.com/mLdMARiTPXYY/AG-Traction-Rec-Extensions-Base-Pack)
