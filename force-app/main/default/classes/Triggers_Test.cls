@@ -14,6 +14,17 @@ private class Triggers_Test {
     }
 
     @IsTest
+    static void testContractAndFormTrigger() {
+        TREX1__Contract_and_Form__c contract = TestDataFactory.createContractScenario();
+
+        Test.startTest();
+        Database.SaveResult sr = Database.insert(contract, false);
+        Test.stopTest();
+        
+        System.Assert.isTrue(sr.isSuccess(), 'Should have successfully saved record');
+    }
+
+    @IsTest
     static void testTransactionTrigger() {
         List<Contact> contacts = TestDataFactory.createContacts(1);
         insert contacts;
