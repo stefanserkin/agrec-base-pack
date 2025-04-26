@@ -23,3 +23,6 @@ You can find a copy of the Apache License in [apache/LICENSE](https://www.apache
 
 This framework is derived from Mitch Spano’s open-source Trigger Actions Framework, licensed under the [Apache 2.0 License](https://github.com/mitchspano/trigger-actions-framework/blob/main/LICENSE).
 See: https://github.com/mitchspano/trigger-actions-framework
+
+## License
+This package is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more information.
