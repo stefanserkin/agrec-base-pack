@@ -20,6 +20,7 @@
  * executing Flows before or after the insert, update, delete, or undelete of records.
  */
 @SuppressWarnings('PMD.CyclomaticComplexity')
+@NamespaceAccessible
 public virtual inherited sharing class TriggerActionFlow implements TriggerAction.BeforeInsert, TriggerAction.AfterInsert, TriggerAction.BeforeUpdate, TriggerAction.AfterUpdate, TriggerAction.BeforeDelete, TriggerAction.AfterDelete, TriggerAction.AfterUndelete {
 	@TestVisible
 	private static final String RECORD_VARIABLE_NOT_FOUND_ERROR = 'There must be a variable defined in this flow with api name of "record" and type of "record" that is marked as "available for output"';
@@ -36,6 +37,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param flowName The API name of the Flow to bypass.
 	 */
+	@NamespaceAccessible
 	public static void bypass(String flowName) {
 		TriggerActionFlow.bypassedFlows.add(flowName);
 	}
@@ -45,6 +47,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param flowName The API name of the Flow to clear the bypass for.
 	 */
+	@NamespaceAccessible
 	public static void clearBypass(String flowName) {
 		TriggerActionFlow.bypassedFlows.remove(flowName);
 	}
@@ -55,6 +58,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 * @param flowName The API name of the Flow to check the bypass for.
 	 * @return `true` if the Flow is bypassed for the specified list of records, `false` otherwise.
 	 */
+	@NamespaceAccessible
 	public static Boolean isBypassed(String flowName) {
 		return TriggerActionFlow.bypassedFlows.contains(flowName);
 	}
@@ -62,6 +66,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	/**
 	 * @description This method clears all bypasses for all Flows.
 	 */
+	@NamespaceAccessible
 	public static void clearAllBypasses() {
 		TriggerActionFlow.bypassedFlows.clear();
 	}
@@ -72,6 +77,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 * @param bypassType The bypass type to validate.
 	 * @throws IllegalArgumentException if the bypass type is not valid.
 	 */
+	@NamespaceAccessible
 	public static void validateType(String bypassType) {
 		if (!TriggerActionConstants.REQUEST_TYPES.contains(bypassType)) {
 			throw new IllegalArgumentException(TriggerActionConstants.INVALID_TYPE);
@@ -83,6 +89,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param triggerNew The list of records to execute the Flow for.
 	 */
+	@NamespaceAccessible
 	public void beforeInsert(List<SObject> triggerNew) {
 		if (flowIsBypassed()) {
 			return;
@@ -99,6 +106,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param triggerNew The list of records to execute the Flow for.
 	 */
+	@NamespaceAccessible
 	public void afterInsert(List<SObject> triggerNew) {
 		if (flowIsBypassed()) {
 			return;
@@ -117,6 +125,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 * @param triggerNew The list of new records that are being updated.
 	 * @param triggerOld The list of old records that are being updated.
 	 */
+	@NamespaceAccessible
 	public void beforeUpdate(List<SObject> triggerNew, List<SObject> triggerOld) {
 		if (flowIsBypassed()) {
 			return;
@@ -149,6 +158,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 * @param triggerNew The list of new records that are being updated.
 	 * @param triggerOld The list of old records that are being updated.
 	 */
+	@NamespaceAccessible
 	public void afterUpdate(List<SObject> triggerNew, List<SObject> triggerOld) {
 		if (flowIsBypassed()) {
 			return;
@@ -181,6 +191,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param triggerOld The list of old records that are being deleted.
 	 */
+	@NamespaceAccessible
 	public void beforeDelete(List<SObject> triggerOld) {
 		if (flowIsBypassed()) {
 			return;
@@ -201,6 +212,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param triggerOld The list of old records that are being deleted.
 	 */
+	@NamespaceAccessible
 	public void afterDelete(List<SObject> triggerOld) {
 		if (flowIsBypassed()) {
 			return;
@@ -221,6 +233,7 @@ public virtual inherited sharing class TriggerActionFlow implements TriggerActio
 	 *
 	 * @param triggerNew The list of records that are being restored.
 	 */
+	@NamespaceAccessible
 	public void afterUndelete(List<SObject> triggerNew) {
 		if (flowIsBypassed()) {
 			return;

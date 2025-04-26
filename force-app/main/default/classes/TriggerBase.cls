@@ -35,6 +35,7 @@
 @SuppressWarnings(
 	'PMD.StdCyclomaticComplexity, PMD.CyclomaticComplexity, PMD.cognitivecomplexity, PMD.PropertyNamingConventions'
 )
+@NamespaceAccessible
 public inherited sharing virtual class TriggerBase {
 	@TestVisible
 	private static final String HANDLER_OUTSIDE_TRIGGER_MESSAGE = 'Trigger handler called outside of Trigger execution';
@@ -76,6 +77,7 @@ public inherited sharing virtual class TriggerBase {
 	 * @return A map of the IDs of the records that have been seen in the `BEFORE_UPDATE` context to
 	 * the number of times they have been seen.
 	 */
+	@NamespaceAccessible
 	public static Map<Id, Integer> idToNumberOfTimesSeenBeforeUpdate {
 		get {
 			return CONTEXT_TO_UPDATE_COUNT.get(System.TriggerOperation.BEFORE_UPDATE);
@@ -89,6 +91,7 @@ public inherited sharing virtual class TriggerBase {
 	 * @return A map of the IDs of the records that have been seen in the `AFTER_UPDATE`
 	 * context to the number of times they have been seen.
 	 */
+	@NamespaceAccessible
 	public static Map<Id, Integer> idToNumberOfTimesSeenAfterUpdate {
 		get {
 			return CONTEXT_TO_UPDATE_COUNT.get(System.TriggerOperation.AFTER_UPDATE);
@@ -113,6 +116,7 @@ public inherited sharing virtual class TriggerBase {
 	 *
 	 * @param sObjectName The API name of the object to bypass.
 	 */
+	@NamespaceAccessible
 	public static void bypass(String sObjectName) {
 		TriggerBase.bypassedObjects.add(sObjectName);
 	}
@@ -122,6 +126,7 @@ public inherited sharing virtual class TriggerBase {
 	 *
 	 * @param sObjectName The API name of the object to clear the bypass for.
 	 */
+	@NamespaceAccessible
 	public static void clearBypass(String sObjectName) {
 		TriggerBase.bypassedObjects.remove(sObjectName);
 	}
@@ -132,6 +137,7 @@ public inherited sharing virtual class TriggerBase {
 	 * @param sObjectName The API name of the object to check the bypass for.
 	 * @return True if the object is bypassed, false otherwise.
 	 */
+	@NamespaceAccessible
 	public static Boolean isBypassed(String sObjectName) {
 		return TriggerBase.bypassedObjects.contains(sObjectName);
 	}
@@ -139,6 +145,7 @@ public inherited sharing virtual class TriggerBase {
 	/**
 	 * @description This method clears all bypasses.
 	 */
+	@NamespaceAccessible
 	public static void clearAllBypasses() {
 		TriggerBase.bypassedObjects.clear();
 	}
@@ -146,6 +153,7 @@ public inherited sharing virtual class TriggerBase {
 	/**
 	 * @description This method offsets the number of existing DML rows.
 	 */
+	@NamespaceAccessible
 	public static void offsetExistingDmlRows() {
 		existingDmlRowsOffset = Limits.getDMLRows();
 	}
@@ -153,6 +161,7 @@ public inherited sharing virtual class TriggerBase {
 	/**
 	 * @description This method waits to finalize the DML operation.
 	 */
+	@NamespaceAccessible
 	public static void waitToFinalize() {
 		suppressFinalizeExecution = true;
 	}
@@ -160,6 +169,7 @@ public inherited sharing virtual class TriggerBase {
 	/**
 	 * @description This method now finalizes the DML operation.
 	 */
+	@NamespaceAccessible
 	public static void nowFinalize() {
 		if (suppressFinalizeExecution == false) {
 			throw new TriggerBaseException(CANNOT_FINALIZE);
@@ -170,6 +180,7 @@ public inherited sharing virtual class TriggerBase {
 	/**
 	 * @description This method runs the trigger handler.
 	 */
+	@NamespaceAccessible
 	public void run() {
 		if (!shouldRun()) {
 			return;
