@@ -25,4 +25,4 @@ This framework is derived from Mitch Spano’s open-source Trigger Actions Frame
 See: https://github.com/mitchspano/trigger-actions-framework
 
 ## License
-This package is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more information.
+This package is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for more information.
