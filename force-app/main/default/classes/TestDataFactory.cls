@@ -1,5 +1,5 @@
-@NamespaceAccessible
 @IsTest
+@NamespaceAccessible
 public class TestDataFactory {
 
     /**
@@ -84,15 +84,35 @@ public class TestDataFactory {
     public static TREX1__Contract_and_Form__c createContract(Id accountId, Id contactId) {
         TREX1__Contract_and_Form__c contract = new TREX1__Contract_and_Form__c(
             Name = 'Test Contract',
-            TREX1__Waiver_Text__c = 'Hello {!Name}, your account is {!TREX1__Account__r.Name} and contact account is {!TREX1__Contact__r.Account.Name}.',
             TREX1__Account__c = accountId,
             TREX1__Contact__c = contactId,
             TREX1__Contract_Expiry_Policy__c = 'Always Required',
             TREX1__Valid_For__c = 'Account',
             TREX1__Type__c = 'Waiver Form',
-            TREX1__Status__c = 'Draft'
+            TREX1__Status__c = 'Draft',
+            TREX1__Waiver_Text__c = 'Hello {!TREX1__Contact__r.FirstName}, your account is {!TREX1__Account__r.Name}.' +
+                                    '\nAdd-Ons:\n{!tableStart:addOns}- {!Name} (Status: {!TREX1__Status__c}){!tableEnd}'
         );
         return contract;
+    }
+
+    /**
+     * Registration (TREX1)
+     */
+    @NamespaceAccessible
+    public static TREX1__Registration__c createRegistrationWithAddOns(Id accountId, Id contactId) {
+        TREX1__Registration__c reg = new TREX1__Registration__c();
+        reg.TREX1__Account__c = accountId;
+        reg.TREX1__Contact__c = contactId;
+        insert reg;
+
+        List<TREX1__Add_On__c> addOns = new List<TREX1__Add_On__c>{
+            new TREX1__Add_On__c(Name = 'Locker Rental', TREX1__Status__c = 'Draft', TREX1__Registration__c = reg.Id),
+            new TREX1__Add_On__c(Name = 'Swim Goggles', TREX1__Status__c = 'Draft', TREX1__Registration__c = reg.Id)
+        };
+        insert addOns;
+
+        return reg;
     }
 
     /**
