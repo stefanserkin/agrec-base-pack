@@ -2,6 +2,9 @@
 @NamespaceAccessible
 public class TestDataFactory {
 
+    private static final String WAIVER_TEXT = 'Hello {!TREX1__Contact__r.FirstName}, your account is {!TREX1__Account__r.Name}.' +
+                                                '\nAdd-Ons:\n{!tableStart:addOns}- {!Name} (Status: {!TREX1__Status__c}){!tableEnd}';
+
     /**
      * Accounts
      */
@@ -77,21 +80,37 @@ public class TestDataFactory {
         ct.AccountId = acc.Id;
         insert ct;
 
-        return createContract(acc.Id, ct.Id);
+        TREX1__Contract_or_Form_Template__c template = createContractTemplate();
+        insert template;
+
+        return createContract(template.Id, acc.Id, ct.Id);
     }
 
     @NamespaceAccessible
-    public static TREX1__Contract_and_Form__c createContract(Id accountId, Id contactId) {
+    public static TREX1__Contract_or_Form_Template__c createContractTemplate() {
+        TREX1__Contract_or_Form_Template__c template = new TREX1__Contract_or_Form_Template__c(
+            Name = 'Test Contract',
+            TREX1__Contract_Expiry_Policy__c = 'Always Required',
+            TREX1__Contract_Valid_For__c = 'Contact',
+            TREX1__Form_Type__c = 'Waiver Form',
+            TREX1__Waiver_Text__c = WAIVER_TEXT
+        );
+        return template;
+    }
+
+    @NamespaceAccessible
+    public static TREX1__Contract_and_Form__c createContract(Id templateId, Id accountId, Id contactId) {
         TREX1__Contract_and_Form__c contract = new TREX1__Contract_and_Form__c(
             Name = 'Test Contract',
+            TREX1__caf_Template__c = templateId,
+            TREX1__Template_ID__c = templateId,
             TREX1__Account__c = accountId,
             TREX1__Contact__c = contactId,
             TREX1__Contract_Expiry_Policy__c = 'Always Required',
-            TREX1__Valid_For__c = 'Account',
+            TREX1__Valid_For__c = 'Contact',
             TREX1__Type__c = 'Waiver Form',
             TREX1__Status__c = 'Draft',
-            TREX1__Waiver_Text__c = 'Hello {!TREX1__Contact__r.FirstName}, your account is {!TREX1__Account__r.Name}.' +
-                                    '\nAdd-Ons:\n{!tableStart:addOns}- {!Name} (Status: {!TREX1__Status__c}){!tableEnd}'
+            TREX1__Waiver_Text__c = WAIVER_TEXT
         );
         return contract;
     }
