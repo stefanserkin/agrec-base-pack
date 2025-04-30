@@ -3,7 +3,7 @@
 public class TestDataFactory {
 
     private static final String WAIVER_TEXT = 'Hello {!TREX1__Contact__r.FirstName}, your account is {!TREX1__Account__r.Name}.' +
-                                                '\nAdd-Ons:\n{!tableStart:addOns}- {!Name} (Status: {!TREX1__Status__c}){!tableEnd}';
+                                                '\nAdd-Ons:\n{!tableStart:addOns}- {!Name} (Status: {!TREX1__Status__c})\n{!tableEnd}';
 
     /**
      * Accounts
