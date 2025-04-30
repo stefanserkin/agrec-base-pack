@@ -36,9 +36,10 @@ public inherited sharing class TriggerActionFlowClearAllBypasses {
 	 * @param requests A list of the objects, Apex actions, or Flow actions to clear the bypasses for.
 	 */
 	@InvocableMethod(
-		category='Trigger Action Flow'
+		category='agrec'
 		label='Clear All Bypasses'
 		description='Sets the static bypass to false for all objects, apex actions, or flow actions.'
+		iconName='resource:agGlyph:Layer_1'
 	)
 	public static void clearAllBypasses(List<String> requests) {
 		TriggerActionFlowBypassProcessor bypassProcessor = new ClearBypassesProcessor();

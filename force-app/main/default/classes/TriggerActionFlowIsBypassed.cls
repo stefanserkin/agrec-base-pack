@@ -42,9 +42,10 @@ public inherited sharing class TriggerActionFlowIsBypassed {
 	 * specified objects, Apex actions, or Flow actions.
 	 */
 	@InvocableMethod(
-		category='Trigger Action Flow'
+		category='agrec'
 		label='Is Bypassed'
 		description='Returns if the bypass for this object, apex action, or flow action is set to true.'
+		iconName='resource:agGlyph:Layer_1'
 	)
 	public static List<Boolean> isBypassed(List<Request> requests) {
 		List<Boolean> results = new List<Boolean>();

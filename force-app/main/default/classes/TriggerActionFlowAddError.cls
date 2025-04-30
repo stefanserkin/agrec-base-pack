@@ -37,9 +37,10 @@ public inherited sharing class TriggerActionFlowAddError {
 	 * @param requests A list of `Request` objects.
 	 */
 	@InvocableMethod(
-		category='Trigger Action Flow'
+		category='agrec'
 		label='Add Error'
 		description='Adds an error to an sObject'
+		iconName='resource:agGlyph:Layer_1'
 	)
 	public static void addError(List<Request> requests) {
 		for (Request myRequest : requests) {

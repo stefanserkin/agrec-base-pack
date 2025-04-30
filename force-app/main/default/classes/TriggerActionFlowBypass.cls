@@ -33,9 +33,10 @@ public inherited sharing class TriggerActionFlowBypass {
 	 * @param requests A list of `Request` objects.
 	 */
 	@InvocableMethod(
-		category='Trigger Action Flow'
+		category='agrec'
 		label='Bypass'
 		description='Sets the static bypass to true for this object, apex action, or flow action.'
+		iconName='resource:agGlyph:Layer_1'
 	)
 	public static void bypass(List<Request> requests) {
 		TriggerActionFlowBypassProcessor bypassProcessor = new FlowBypassProcessor();
