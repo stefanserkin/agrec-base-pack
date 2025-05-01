@@ -30,7 +30,7 @@
  * If the `fieldName` property is not specified, the error message will be added to the sObject without a field name.
  *
  */
-public inherited sharing class TriggerActionFlowAddError {
+global inherited sharing class TriggerActionFlowAddError {
 	/**
 	 * @description This Invocable method adds an error to an sObject.
 	 *
@@ -42,7 +42,7 @@ public inherited sharing class TriggerActionFlowAddError {
 		description='Adds an error to an sObject'
 		iconName='resource:agGlyph:Layer_1'
 	)
-	public static void addError(List<Request> requests) {
+	global static void addError(List<Request> requests) {
 		for (Request myRequest : requests) {
 			if (!String.isBlank(myRequest.fieldName)) {
 				myRequest.record.addError(myRequest.fieldName, myRequest.errorMessage);
@@ -55,23 +55,23 @@ public inherited sharing class TriggerActionFlowAddError {
 	/**
 	 * @description This class represents a request to add an error to an sObject.
 	 */
-	public class Request {
+	global class Request {
 		@InvocableVariable(
 			label='Record'
 			description='Record to add the error to'
 			required=true
 		)
-		public SObject record;
+		global SObject record;
 		@InvocableVariable(
 			label='Field Name'
 			description='API name of corresponding field'
 		)
-		public String fieldName;
+		global String fieldName;
 		@InvocableVariable(
 			label='Error Message'
 			description='Error Message'
 			required=true
 		)
-		public String errorMessage;
+		global String errorMessage;
 	}
 }

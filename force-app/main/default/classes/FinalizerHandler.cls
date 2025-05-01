@@ -47,6 +47,7 @@
  * To handle dynamic finalizers, you can call the `handleDynamicFinalizers` method of the `FinalizerHandler` class.
  * The `handleDynamicFinalizers` method will instantiate and execute all finalizers that are not bypassed.
  */
+@NamespaceAccessible
 public with sharing virtual class FinalizerHandler {
 	@TestVisible
 	private static final String DML_IN_FINALIZER_ERROR = 'DML is not allowed within the finalizer context.';
@@ -65,6 +66,7 @@ public with sharing virtual class FinalizerHandler {
 	 * @description Bypass the execution of a specific finalizer.
 	 * @param finalizer The name of the finalizer to bypass.
 	 */
+	@NamespaceAccessible
 	public static void bypass(String finalizer) {
 		FinalizerHandler.bypassedFinalizers.add(finalizer);
 	}
@@ -73,6 +75,7 @@ public with sharing virtual class FinalizerHandler {
 	 * @description Clear the bypass for a specific finalizer.
 	 * @param finalizer The name of the finalizer to clear the bypass for.
 	 */
+	@NamespaceAccessible
 	public static void clearBypass(String finalizer) {
 		FinalizerHandler.bypassedFinalizers.remove(finalizer);
 	}
@@ -82,6 +85,7 @@ public with sharing virtual class FinalizerHandler {
 	 * @param finalizer The name of the finalizer to check.
 	 * @return True if the finalizer is bypassed, false otherwise.
 	 */
+	@NamespaceAccessible
 	public static Boolean isBypassed(String finalizer) {
 		return FinalizerHandler.bypassedFinalizers.contains(finalizer);
 	}
@@ -89,6 +93,7 @@ public with sharing virtual class FinalizerHandler {
 	/**
 	 * @description Clear all bypasses.
 	 */
+	@NamespaceAccessible
 	public static void clearAllBypasses() {
 		FinalizerHandler.bypassedFinalizers.clear();
 	}
@@ -96,6 +101,7 @@ public with sharing virtual class FinalizerHandler {
 	/**
 	 * @description Handle dynamic finalizers. Instantiates and executes finalizers based on metadata.
 	 */
+	@NamespaceAccessible
 	public virtual void handleDynamicFinalizers() {
 		Context context = new Context();
 		List<DML_Finalizer__mdt> sortedFinalizers = getSortedFinalizers();

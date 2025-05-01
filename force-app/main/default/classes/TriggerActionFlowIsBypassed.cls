@@ -32,7 +32,7 @@
  * to `true` for each of the specified objects, Apex actions, or Flow actions.
  */
 @SuppressWarnings('PMD.CognitiveComplexity')
-public inherited sharing class TriggerActionFlowIsBypassed {
+global inherited sharing class TriggerActionFlowIsBypassed {
 	/**
 	 * @description This method checks if the bypass is set to `true` for the specified objects,
 	 * Apex actions, or Flow actions.
@@ -47,7 +47,7 @@ public inherited sharing class TriggerActionFlowIsBypassed {
 		description='Returns if the bypass for this object, apex action, or flow action is set to true.'
 		iconName='resource:agGlyph:Layer_1'
 	)
-	public static List<Boolean> isBypassed(List<Request> requests) {
+	global static List<Boolean> isBypassed(List<Request> requests) {
 		List<Boolean> results = new List<Boolean>();
 		FlowIsBypassedProcesser bypassProcesser = new FlowIsBypassedProcesser();
 		for (Request myRequest : requests) {
@@ -65,11 +65,11 @@ public inherited sharing class TriggerActionFlowIsBypassed {
 	 * - `name`: The API name of the object, Apex action, or Flow action to check the bypass for.
 	 * - `bypassType`: The type of bypass to check. Valid values are `Apex`, `Flow`, or `Object`.
 	 */
-	public class Request {
+	global class Request {
 		@InvocableVariable
-		public String name;
+		global String name;
 		@InvocableVariable
-		public String bypassType;
+		global String bypassType;
 	}
 
 	private class FlowIsBypassedProcesser extends TriggerActionFlowBypassProcessor {

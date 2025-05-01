@@ -26,7 +26,7 @@
  *
  */
 @SuppressWarnings('PMD.CognitiveComplexity')
-public inherited sharing class TriggerActionFlowBypass {
+global inherited sharing class TriggerActionFlowBypass {
 	/**
 	 * @description This Invocable method bypasses a trigger action flow, Apex class, or Object trigger.
 	 *
@@ -38,7 +38,7 @@ public inherited sharing class TriggerActionFlowBypass {
 		description='Sets the static bypass to true for this object, apex action, or flow action.'
 		iconName='resource:agGlyph:Layer_1'
 	)
-	public static void bypass(List<Request> requests) {
+	global static void bypass(List<Request> requests) {
 		TriggerActionFlowBypassProcessor bypassProcessor = new FlowBypassProcessor();
 		for (Request myRequest : requests) {
 			bypassProcessor.execute(myRequest.bypassType, myRequest.name);
@@ -48,19 +48,19 @@ public inherited sharing class TriggerActionFlowBypass {
 	/**
 	 * @description This class represents a request to bypass a trigger action flow, Apex class, or Object trigger.
 	 */
-	public class Request {
+	global class Request {
 		@InvocableVariable(
 			label='Name'
 			description='API Name of the trigger action flow, class, or sObject'
 			required=true
 		)
-		public String name;
+		global String name;
 		@InvocableVariable(
 			label='Bypass Type'
 			description='Apex, Flow, or Object'
 			required=true
 		)
-		public String bypassType;
+		global String bypassType;
 	}
 
 	private class FlowBypassProcessor extends TriggerActionFlowBypassProcessor {

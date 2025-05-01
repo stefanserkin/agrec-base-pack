@@ -21,6 +21,7 @@
  *
  * @see https://developer.salesforce.com/docs/atlas.en-us.change_data_capture.meta/change_data_capture/cdc_event_fields_header.htm
  */
+@NamespaceAccessible
 public with sharing class FlowChangeEventHeader {
 	@InvocableVariable
 	@AuraEnabled
@@ -65,6 +66,7 @@ public with sharing class FlowChangeEventHeader {
 	 *
 	 * @param header The `EventBus.ChangeEventHeader` object to populate the properties of this object with.
 	 */
+	@NamespaceAccessible
 	public FlowChangeEventHeader(EventBus.ChangeEventHeader header) {
 		this.entityName = header.entityName;
 		this.recordIds = header.recordIds;
@@ -86,6 +88,7 @@ public with sharing class FlowChangeEventHeader {
 	 * @param obj The object to compare this `FlowChangeEventHeader` object to.
 	 * @return `true` if the objects are equal, `false` otherwise.
 	 */
+	@NamespaceAccessible
 	public Boolean equals(Object obj) {
 		if (obj != null && obj instanceof FlowChangeEventHeader) {
 			FlowChangeEventHeader other = (FlowChangeEventHeader) obj;
@@ -110,6 +113,7 @@ public with sharing class FlowChangeEventHeader {
 	 *
 	 * @return A hash code value for this `FlowChangeEventHeader` object.
 	 */
+	@NamespaceAccessible
 	public Integer hashCode() {
 		return JSON.serialize(this).hashCode();
 	}

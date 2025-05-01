@@ -32,8 +32,8 @@
  * ---
  * To implement a Trigger Action, you must create a class that implements one or more of the `TriggerAction` interfaces.
  */
-@NamespaceAccessible
 @SuppressWarnings('PMD.CyclomaticComplexity')
+@NamespaceAccessible
 public class TriggerAction {
 	/**
 	 * @description This interface defines the logic that should be executed before

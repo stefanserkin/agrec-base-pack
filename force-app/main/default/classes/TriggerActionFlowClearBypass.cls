@@ -28,7 +28,7 @@
  * The `clearBypass` method will clear the bypass for the specified objects, Apex actions, or Flow actions.
  */
 @SuppressWarnings('PMD.ApexDoc, PMD.CognitiveComplexity')
-public inherited sharing class TriggerActionFlowClearBypass {
+global inherited sharing class TriggerActionFlowClearBypass {
 	/**
 	 * @description This method clears the bypass for the specified objects, Apex actions, or Flow actions.
 	 *
@@ -40,7 +40,7 @@ public inherited sharing class TriggerActionFlowClearBypass {
 		description='Sets the static bypass to false for this object, apex action, or flow action.'
 		iconName='resource:agGlyph:Layer_1'
 	)
-	public static void clearBypass(List<Request> requests) {
+	global static void clearBypass(List<Request> requests) {
 		TriggerActionFlowBypassProcessor bypassProcesser = new FlowClearBypassProcessor();
 		for (Request myRequest : requests) {
 			bypassProcesser.execute(myRequest.bypassType, myRequest.name);
@@ -56,19 +56,19 @@ public inherited sharing class TriggerActionFlowClearBypass {
 	 * - `name`: The API name of the object, Apex action, or Flow action to clear the bypass for.
 	 * - `bypassType`: The type of bypass to clear. Valid values are `Apex`, `Flow`, or `Object`.
 	 */
-	public class Request {
+	global class Request {
 		@InvocableVariable(
 			label='Name'
 			description='API Name of the trigger action flow, class, or sObject'
 			required=true
 		)
-		public String name;
+		global String name;
 		@InvocableVariable(
 			label='Bypass Type'
 			description='Apex, Flow, or Object'
 			required=true
 		)
-		public String bypassType;
+		global String bypassType;
 	}
 
 	/**

@@ -28,6 +28,7 @@
  * You can then use the `TriggerActionFlowChangeEvent` class to invoke the Flow and pass the change event header
  * as the input variable.
  */
+@NamespaceAccessible
 public with sharing class TriggerActionFlowChangeEvent extends TriggerActionFlow {
 	@TestVisible
 	private static final String CHANGE_EVENT_HEADER = 'ChangeEventHeader';

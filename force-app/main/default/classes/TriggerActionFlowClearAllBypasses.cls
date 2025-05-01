@@ -29,7 +29,7 @@
  *
  */
 @SuppressWarnings('PMD.CognitiveComplexity')
-public inherited sharing class TriggerActionFlowClearAllBypasses {
+global inherited sharing class TriggerActionFlowClearAllBypasses {
 	/**
 	 * @description This method clears all bypasses for the specified objects, Apex actions, or Flow actions.
 	 *
@@ -41,7 +41,7 @@ public inherited sharing class TriggerActionFlowClearAllBypasses {
 		description='Sets the static bypass to false for all objects, apex actions, or flow actions.'
 		iconName='resource:agGlyph:Layer_1'
 	)
-	public static void clearAllBypasses(List<String> requests) {
+	global static void clearAllBypasses(List<String> requests) {
 		TriggerActionFlowBypassProcessor bypassProcessor = new ClearBypassesProcessor();
 		for (String myRequest : requests) {
 			bypassProcessor.execute(myRequest, myRequest);
