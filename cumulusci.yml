@@ -85,6 +85,8 @@ orgs:
             namespaced: True
         build:
             config_file: orgs/build.json
+            days: 1
+            namespaced: True
         beta_named:
             config_file: orgs/beta.json
             days: 7

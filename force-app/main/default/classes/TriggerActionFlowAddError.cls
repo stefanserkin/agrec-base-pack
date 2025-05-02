@@ -40,7 +40,7 @@ global inherited sharing class TriggerActionFlowAddError {
 		category='agrec'
 		label='Add Error'
 		description='Adds an error to an sObject'
-		iconName='resource:agGlyph:Layer_1'
+		iconName='resource:agrec__agGlyph:Layer_1'
 	)
 	global static void addError(List<Request> requests) {
 		for (Request myRequest : requests) {

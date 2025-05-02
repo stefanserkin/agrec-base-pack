@@ -38,7 +38,7 @@ global inherited sharing class TriggerActionFlowClearBypass {
 		category='agrec'
 		label='Clear Bypass'
 		description='Sets the static bypass to false for this object, apex action, or flow action.'
-		iconName='resource:agGlyph:Layer_1'
+		iconName='resource:agrec__agGlyph:Layer_1'
 	)
 	global static void clearBypass(List<Request> requests) {
 		TriggerActionFlowBypassProcessor bypassProcesser = new FlowClearBypassProcessor();

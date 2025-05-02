@@ -45,7 +45,7 @@ global inherited sharing class TriggerActionFlowIsBypassed {
 		category='agrec'
 		label='Is Bypassed'
 		description='Returns if the bypass for this object, apex action, or flow action is set to true.'
-		iconName='resource:agGlyph:Layer_1'
+		iconName='resource:agrec__agGlyph:Layer_1'
 	)
 	global static List<Boolean> isBypassed(List<Request> requests) {
 		List<Boolean> results = new List<Boolean>();
