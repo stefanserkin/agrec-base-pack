@@ -147,4 +147,43 @@ public class TestDataFactory {
         return trx;
     }
 
+    /**
+     * User
+     */
+    @NamespaceAccessible
+    public static User getUser(List<String> permissionSetNames) {
+        String orgId = UserInfo.getOrganizationId();
+        String dateString = String.valueof(Datetime.now()).replace(' ', '').replace(':', '').replace('-', '');
+        Integer randomInt = Integer.valueOf(Math.rint(Math.random() * 1000000));
+        String uniqueName = orgId + dateString + randomInt;
+
+        Profile profile = [SELECT Id FROM Profile WHERE Name = 'System Administrator' LIMIT 1];
+
+        User u = new User();
+        u.IsActive          = true;
+        u.TimeZoneSidKey    = UserInfo.getTimeZone().toString();
+        u.LocaleSidKey      = UserInfo.getLocale();
+        u.LanguageLocaleKey = UserInfo.getLocale();
+        u.EmailEncodingKey  = 'ISO-8859-1';
+        u.Username          = uniqueName + '@test' + orgId + '.org';
+        u.Email             = uniqueName + '@test' + orgId + '.org';
+        u.FirstName         = 'Rey';
+        u.LastName          = 'Ordonez';
+        u.Alias             = uniqueName.substring(18, 23);
+        u.ProfileId         = profile.Id;
+        insert u;
+
+        if (!permissionSetNames.isEmpty()) {
+            List<PermissionSetAssignment> psas = new List<PermissionSetAssignment>();
+            for (List<PermissionSet> permSets : [SELECT Id FROM PermissionSet WHERE Name IN :permissionSetNames]) {
+                for (PermissionSet permSet : permSets) {
+                    psas.add( new PermissionSetAssignment(AssigneeId = u.Id, PermissionSetId = permSet.Id) );
+                }
+            }
+            insert psas;
+        }
+
+        return u;
+    }
+
 }
