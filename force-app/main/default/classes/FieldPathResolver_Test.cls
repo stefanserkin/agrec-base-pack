@@ -3,7 +3,7 @@ private class FieldPathResolver_Test {
 
     @IsTest
     static void testSimpleFieldResolution() {
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Subject');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Subject');
         System.Assert.areEqual('Subject', result.apiName);
         System.Assert.areEqual('Case', result.objectApiName);
         System.Assert.areEqual('Subject', result.label, 'Expected label to be populated');
@@ -15,7 +15,7 @@ private class FieldPathResolver_Test {
 
     @IsTest
     static void testOneLevelRelationshipResolution() {
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.Email');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.Email');
         System.Assert.areEqual('Contact.Email', result.apiName);
         System.Assert.areEqual('Contact', result.objectApiName);
         System.Assert.areEqual('Email', result.label, 'Expected label to be populated');
@@ -27,7 +27,7 @@ private class FieldPathResolver_Test {
 
     @IsTest
     static void testTwoLevelRelationshipResolution() {
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.Account.Industry');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.Account.Industry');
         System.Assert.areEqual('Contact.Account.Industry', result.apiName);
         System.Assert.areEqual('Account', result.objectApiName);
         System.Assert.areEqual('Industry', result.label, 'Expected label to be populated');
@@ -39,7 +39,7 @@ private class FieldPathResolver_Test {
 
     @IsTest
     static void testInvalidFieldPath() {
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.NonExistent');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Contact.NonExistent');
         System.Assert.areEqual('Contact.NonExistent', result.apiName);
         System.Assert.areEqual('Case', result.objectApiName, 'Should return base object name when invalid');
         System.Assert.isNull(result.label);
@@ -50,7 +50,7 @@ private class FieldPathResolver_Test {
 
     @IsTest
     static void testFallbackByRelationshipName() {
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Contact.sObjectType, 'Account.Name');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Contact.sObjectType, 'Account.Name');
         System.Assert.areEqual('Account.Name', result.apiName);
         System.Assert.areEqual('Account', result.objectApiName);
         System.Assert.areEqual('Account Name', result.label);
@@ -63,7 +63,7 @@ private class FieldPathResolver_Test {
     @IsTest
     static void testNonRelationshipMidPath() {
         // Attempt to resolve something like Name.Account.Industry
-        FieldPathResolver.ResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Subject.Account.Industry');
+        FieldPathResolutionResult result = FieldPathResolver.resolveFieldPath(Schema.Case.sObjectType, 'Subject.Account.Industry');
         System.Assert.areEqual('Subject.Account.Industry', result.apiName);
         System.Assert.areEqual('Case', result.objectApiName);
         System.Assert.isNull(result.label);
