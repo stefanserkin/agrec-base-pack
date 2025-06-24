@@ -12,28 +12,21 @@
  * Asphalt Green Data and Information Systems
  ***********************************************************************/
 @NamespaceAccessible
-public with sharing class FieldPathResolver {
-    
+public inherited sharing class FieldPathResolver {
+
     @NamespaceAccessible
-    public class ResolutionResult {
-        public String apiName;
-        public String label;
-        public String objectApiName;
-        public Boolean isRelationship;
-        public String relationshipName;
-        public Schema.DescribeFieldResult fieldDescribe;
-    }
+    public class FieldPathResolverException extends Exception {}
 
     /**
      * Resolves a nested field path (e.g., "Contact.Account.Industry") from a base SObjectType.
      * 
      * @param baseType The starting SObjectType (e.g., Schema.Case.sObjectType)
      * @param fieldPath The dot-notation field path to resolve
-     * @return A ResolutionResult with label, API name, object name, etc.
+     * @return A FieldPathResolutionResult with label, API name, object name, etc.
      */
     @NamespaceAccessible
-    public static ResolutionResult resolveFieldPath(Schema.SObjectType baseType, String fieldPath) {
-        ResolutionResult result = new ResolutionResult();
+    public static FieldPathResolutionResult resolveFieldPath(Schema.SObjectType baseType, String fieldPath) {
+        FieldPathResolutionResult result = new FieldPathResolutionResult();
         result.apiName = fieldPath;
         result.label = null;
         result.objectApiName = baseType.getDescribe().getName();
@@ -91,7 +84,7 @@ public with sharing class FieldPathResolver {
                 }
             }
         } catch (Exception e) {
-            System.debug('FieldPathResolver error: ' + e.getMessage());
+            throw new FieldPathResolverException(e.getMessage());
         }
 
         return result;
